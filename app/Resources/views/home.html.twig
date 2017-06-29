@@ -9,8 +9,8 @@
         <div class="row banner">
             <div class="banner-text">
                 <h1 class="responsive-headline">I'm  Abdelffatteh CHEBIL</h1>
-                <h3>I'm a Paris based <span>PHP developer</span> - <span>Symfony2</span> and <span>Drupal</span> . Let's <a class="smoothscroll" href="/about">start scrolling</a>
-                    and learn more <a class="smoothscroll" href="/about">about me</a>.</h3>
+                <h3>I'm a Paris based <span>PHP developer</span> - <span>Symfony2</span> and <span>Drupal</span> . Let's <a class="smoothscroll" href="/{{ app.request.getLocale() }}/about">start scrolling</a>
+                    and learn more <a class="smoothscroll" href="/{{ app.request.getLocale() }}/about">about me</a>.</h3>
                 <hr />
                 <ul class="social">
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -22,7 +22,7 @@
         </div>
 
         <p class="scrolldown">
-            <a class="smoothscroll" href="/about"><i class="icon-down-circle"></i></a>
+            <a class="smoothscroll" href="/{{ app.request.getLocale() }}/about"><i class="icon-down-circle"></i></a>
         </p>
 
     </header> <!-- Header End -->

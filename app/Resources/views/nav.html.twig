@@ -5,12 +5,18 @@
             <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
             <ul id="nav" class="nav">
-                <li class="current"><a class="smoothscroll" href="/">Home</a></li>
-                <li><a class="smoothscroll" href="/about">About</a></li>
-                <li><a class="smoothscroll" href="/experiences">Experiences</a></li>
-                <li><a class="smoothscroll" href="/education">Education</a></li>
-                <li><a class="smoothscroll" href="/skills">Skills</a></li>
-                <li><a class="smoothscroll" href="/contact">Contact</a></li>
+                <li class="current"><a class="smoothscroll" href="/{{ app.request.getLocale() }}">{{ 'nav.home'| trans }}</a></li>
+                <li><a class="smoothscroll" href="/{{ app.request.getLocale() }}/about">{{ 'nav.about' | trans }}</a></li>
+                <li><a class="smoothscroll" href="/{{ app.request.getLocale() }}/experiences">{{ 'nav.experiences' | trans }}</a></li>
+                <li><a class="smoothscroll" href="/{{ app.request.getLocale() }}/education">{{ 'nav.education'|trans }}</a></li>
+                <li><a class="smoothscroll" href="/{{ app.request.getLocale() }}/skills">{{ 'nav.skills' | trans }}</a></li>
+                <li><a class="smoothscroll" href="/{{ app.request.getLocale() }}/contact">{{ 'nav.contact' | trans }}</a></li>
+                <li class="dropdown">
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/fr"> Fr</a></li>
+                        <li><a href="/en"> En</a></li>
+                    </ul>
+                </li>
             </ul> <!-- end #nav -->
 
         </nav> <!-- end #nav-wrap -->

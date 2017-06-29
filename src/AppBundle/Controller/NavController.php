@@ -16,7 +16,13 @@ class NavController extends Controller
 {
 
     /**
-     * @Route("/", name="homepage")
+     * @Route(
+     *     "/{_locale}",
+     *     requirements={
+     *         "_locale": "en|fr"
+     *     },
+     *     name="homepage"
+     * )
      */
     public function indexAction(Request $request)
     {
@@ -25,7 +31,12 @@ class NavController extends Controller
     }
 
     /**
-     * @Route("/about", name="about")
+     * @Route(
+     *     "/{_locale}/about",
+     *     requirements={
+     *         "_locale": "en|fr"
+     *     },
+     *     name="about")
      */
     public function aboutAction(Request $request)
     {
@@ -34,7 +45,12 @@ class NavController extends Controller
     }
 
     /**
-     * @Route("/experiences", name="experiences")
+     * @Route(
+     *     "/{_locale}/experiences",
+     *     requirements={
+     *         "_locale": "en|fr"
+     *     },
+     *     name="experiences")
      */
     public function experiencesAction(Request $request)
     {
@@ -43,7 +59,12 @@ class NavController extends Controller
     }
 
     /**
-     * @Route("/education", name="education")
+     * @Route(
+     *     "/{_locale}/education",
+     *     requirements={
+     *         "_locale": "en|fr"
+     *     },
+     *      name="education")
      */
     public function educationAction(Request $request)
     {
@@ -52,7 +73,12 @@ class NavController extends Controller
     }
 
     /**
-     * @Route("/skills", name="skills")
+     * @Route(
+     *     "/{_locale}/skills",
+     *     requirements={
+     *         "_locale": "en|fr"
+     *     },
+     *     name="skills")
      */
     public function skillsAction(Request $request)
     {
@@ -61,7 +87,12 @@ class NavController extends Controller
     }
 
     /**
-     * @Route("/contact", name="contact")
+     * @Route(
+     *     "/{_locale}/contact",
+     *     requirements={
+     *         "_locale": "en|fr"
+     *     },
+     *     name="contact")
      */
     public function contactAction(Request $request)
     {
