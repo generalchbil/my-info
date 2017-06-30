@@ -34,3 +34,6 @@ contact:
   submit: Envoyer
   error: Erreur
   success: Votre message a été envoyé, merci!
+
+skills:
+  message: Pour avoir plus de détails , je vous invite à <a href="../web/public/files/chebil_abdelffatteh.pdf" > <strong> Télécharger CV </strong></a>

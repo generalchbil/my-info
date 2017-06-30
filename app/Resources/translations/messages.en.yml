@@ -1,7 +1,7 @@
 nav:
   home : home
   about: about
-  experiences: experiences
+  experiences: experience
   education: education
   skills: skills
   contact: contact
@@ -32,3 +32,6 @@ contact:
   submit: Submit
   error: Error
   success: Your message was sent, thank you!
+
+skills:
+  message: For more details, I invite you to <a href="../web/public/files/chebil_abdelffatteh.pdf" > <strong> Download Resume </strong></a>
