@@ -16,6 +16,7 @@ class NavController extends Controller
 {
 
     /**
+     * @Route("/")
      * @Route(
      *     "/{_locale}",
      *     requirements={
@@ -31,7 +32,6 @@ class NavController extends Controller
     }
 
     /**
-     * @Route("/")
      * @Route(
      *     "/{_locale}/about",
      *     requirements={
