@@ -12,8 +12,8 @@
                 <li><a class="smoothscroll" href="/{{ app.request.getLocale() }}/skills">{{ 'nav.skills' | trans }}</a></li>
                 <li><a class="smoothscroll" href="/{{ app.request.getLocale() }}/contact">{{ 'nav.contact' | trans }}</a></li>
                 <li class="smoothscroll">
-                    <a href="/en"><img src="../web/public/images/flags/uk.png" height="12" alt="" width="18" /></a>
-                    <a href="/fr"><img src="../web/public/images/flags/fr.png" height="12" alt="" width="18" /></a>
+                    <a href="/en/{{ app.request.get('_route')}}"><img src="../web/public/images/flags/uk.png" height="12" alt="" width="18" /></a>
+                    <a href="/fr/{{ app.request.get('_route')}}"><img src="../web/public/images/flags/fr.png" height="12" alt="" width="18" /></a>
                 </li>
             </ul> <!-- end #nav -->
 

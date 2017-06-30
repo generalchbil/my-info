@@ -5,3 +5,13 @@ nav:
   education: education
   skills: skills
   contact: contact
+
+about:
+  title: About Me
+  description: I am a Developer Engineer and a Master's Degree in Computer Engineering from the University of Lorraine.
+               I am currently working as a PHP Engineer Confirmed in a Web Agency <strong>Fullsix Group </strong>, located in Levallois-Perret in Hauts de Seine (92).<br>
+               This portfolio aims to present the different projects I have worked on over the last few years.
+               You can also view my resume and download it.<br>
+               If you have a question, or if you just need some information, you can contact me.
+  contacts_details: Contact Details
+  download_cv: Download Resume

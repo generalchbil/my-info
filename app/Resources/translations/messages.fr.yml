@@ -6,3 +6,14 @@ nav:
   skills: compétences
   contact: contact
 
+about:
+  title: A propos de moi
+  description: Je suis Ingénieur Développeur et diplômé d'un Master Génie Informatique de l'université de Lorraine.
+               Je travaille actuellement en tant que Ingénieur PHP Confirmé au sein d'une Agence Web <strong>Fullsix Group</strong>,
+               situé à Levallois-Perret en Hauts de Seine (92).<br>
+               Ce portfolio a pour but de présenter les différents projets sur lesquels j'ai travaillé ces dernières années.
+               Vous pouvez également visualiser mon CV et le télécharger.<br>
+               Si vous avez une question, ou si vous avez simplement besoin d'un renseignement, vous pouvez me contacter.
+  contacts_details: Détails du contact
+  download_cv: Télécharger le CV
+
