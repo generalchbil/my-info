@@ -15,3 +15,9 @@ about:
                If you have a question, or if you just need some information, you can contact me.
   contacts_details: Contact Details
   download_cv: Download Resume
+
+home:
+  h1: Abdelffatteh CHEBIL
+  h3: I'm a Paris based <span>PHP developer</span> - <span>Symfony2</span> and <span>Drupal</span> .
+      Let's <a class="smoothscroll" href="/%lang%/about">start scrolling</a>
+      and learn more <a class="smoothscroll" href="/%lang%/about">about me</a>.

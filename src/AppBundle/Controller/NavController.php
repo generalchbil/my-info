@@ -16,6 +16,7 @@ class NavController extends Controller
 {
 
     /**
+     *
      * @Route("/")
      * @Route(
      *     "/{_locale}",
@@ -23,6 +24,12 @@ class NavController extends Controller
      *         "_locale": "en|fr"
      *     },
      *     name="homepage"
+     * )
+     * @Route(
+     *     "/{_locale}/homepage",
+     *     requirements={
+     *         "_locale": "en|fr"
+     *     }
      * )
      */
     public function indexAction(Request $request)

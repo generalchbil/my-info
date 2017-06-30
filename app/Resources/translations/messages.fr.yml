@@ -17,3 +17,10 @@ about:
   contacts_details: Détails du contact
   download_cv: Télécharger le CV
 
+
+home:
+  h1: Abdelffatteh CHEBIL
+  h3: Je suis un <span>développeur PHP</span> basé à Paris - <span>Symfony2</span> et <span>Drupal</span> .
+      Commençons par  <a class="smoothscroll" href="/%lang%/about">défiler</a>
+      en apprendre davantage sur <a class="smoothscroll" href="/%lang%/about">moi</a>.
+
