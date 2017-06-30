@@ -63,6 +63,10 @@ class NavController extends Controller
     public function experiencesAction(Request $request)
     {
         // replace this example code with whatever you need
+        $lang = $request->getLocale();
+        if($lang == 'en') {
+            return $this->render('experiences.en.html.twig');
+        }
         return $this->render('experiences.html.twig');
     }
 
@@ -77,6 +81,10 @@ class NavController extends Controller
     public function educationAction(Request $request)
     {
         // replace this example code with whatever you need
+        $lang = $request->getLocale();
+        if($lang == 'en') {
+            return $this->render('education.en.html.twig');
+        }
         return $this->render('education.html.twig');
     }
 
