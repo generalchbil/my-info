@@ -8,18 +8,18 @@ nav:
 
 about:
   title: About Me
-  description: I am a Developer Engineer and a Master's Degree in Computer Engineering from the University of Lorraine.
+  description: I am a Developer Engineer with a Master's Degree in Computer Engineering from the University of Lorraine.
                I am currently working as a PHP Engineer Confirmed in a Web Agency <strong>Fullsix Group </strong>, located in Levallois-Perret in Hauts de Seine (92).<br>
                This portfolio aims to present the different projects I have worked on over the last few years.
                You can also view my resume and download it.<br>
-               If you have a question, or if you just need some information, you can contact me.
+               If you have a questions, or if you just need some information, feel free to can contact me.
   contacts_details: Contact Details
   download_cv: Download Resume
 
 home:
   h1: Abdelffatteh CHEBIL
-  h3: I'm a Paris based <span>PHP developer</span> - <span>Symfony2</span> and <span>Drupal</span> .
-      Let's <a class="smoothscroll" href="/%lang%/about">start scrolling</a>
+  h3: I'm a Paris-based <span>PHP developer</span> - <span>Symfony2</span> and <span>Drupal</span> .
+      Let's <a class="smoothscroll" href="/%lang%/about"> Scrool </a>
       and learn more <a class="smoothscroll" href="/%lang%/about">about me</a>.
 
 contact:
@@ -34,4 +34,4 @@ contact:
   success: Your message was sent, thank you!
 
 skills:
-  message: For more details, I invite you to <a href="../web/public/files/chebil_abdelffatteh.pdf" > <strong> Download Resume </strong></a>
+  message: For more details, please  <a href="../web/public/files/chebil_abdelffatteh.pdf" > <strong> Download my Resume </strong></a>
