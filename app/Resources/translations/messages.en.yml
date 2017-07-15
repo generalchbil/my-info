@@ -18,7 +18,7 @@ about:
 
 home:
   h1: Abdelffatteh CHEBIL
-  h3: I'm a Paris-based <span>PHP developer</span> - <span>Symfony2</span> and <span>Drupal</span> .
+  h3: I'm a Paris-based <span>PHP developer</span> - <span>Symfony</span> and <span>Drupal</span> .
       Let's <a class="smoothscroll" href="/%lang%/about"> Scrool </a>
       and learn more <a class="smoothscroll" href="/%lang%/about">about me</a>.
 
