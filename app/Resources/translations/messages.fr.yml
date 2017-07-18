@@ -25,6 +25,7 @@ home:
       en apprendre davantage sur <a class="smoothscroll" href="/%lang%/about">moi</a>.
 
 contact:
+  touch: Entrer en Contact.
   p: Si vous avez des questions ou des commentaires, utilisez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais
   name: Nom
   email: Email
